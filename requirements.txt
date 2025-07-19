@@ -3,3 +3,4 @@ langchain==0.1.17
 langchain-community==0.0.36
 openai==1.30.1
 pandas
+dataset = https://www.kaggle.com/datasets/pratsharma7/the-american-express-campus-challenge-dataset
