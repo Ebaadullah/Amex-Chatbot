@@ -18,7 +18,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # -------- LLM and DB Setup --------
-OPENAI_API_KEY = "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"  # Keep your key secret!
+OPENAI_API_KEY = "Enter Your API Key"  # Keep your key secret!
 llm = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
 
 # MySQL Setup
